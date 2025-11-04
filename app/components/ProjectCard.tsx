@@ -4,7 +4,7 @@ import type { Project } from '~/types';
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <Link
-      to={`/projects/${project.id}`}
+      to={`/projects/${project.documentId}`}
       className="block transform transition duration-300 hover:scale-[1.02]"
     >
       {' '}
